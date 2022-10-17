@@ -6,6 +6,12 @@ a = 1
 b = 2
 c = 'text'
 d = ['some', 'list', a, 777, None, True]    # list
+x = 0
+x += a
+s1 = [1,2,3,4,5]
+s2 = list()
+s2.append(1)
+s2.append('ljfakljsd')
 
 # Арифметические операторы
 r1 = a + b      # = 3
@@ -26,11 +32,19 @@ r9 = 2 % 5      # = 2
 # a <= a        Больше или равно    # True
 
 # Логические операторы
+if a > b and b < 10:
+    pass
+
+if not a == b:
+    pass
+
 # and (и)
 # or (или)
 # not (не)
 
 # Операторы принадлежности
+if 777 not in d:
+    pass
 # in
 # not in
 
