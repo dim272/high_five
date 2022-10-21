@@ -10,11 +10,8 @@ other_phrase = some_string + ' ' + other_string
 other_phrase += '! Have a nice day!'
 # other_phrase = other_phrase + '! Have a nice day!'
 
-
 some_number = 51
-# print(some_string + some_number)
-
-
+# print(some_string + str(some_number))
 
 
 hashtag = '#'
